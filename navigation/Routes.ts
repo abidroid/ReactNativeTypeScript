@@ -1,5 +1,4 @@
-export const Routes = () => {
-
-    const Landing = "Landing"; 
-    const DiceRoll = "DiceRoll";
-}
+export const Routes = {
+    Splash: "Splash",
+     Landing: "Landing", 
+} as const;
